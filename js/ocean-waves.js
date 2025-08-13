@@ -92,6 +92,18 @@ function setCurrentYear() {
 document.addEventListener("click", function (e) {
   if (e.target.tagName === "A" && e.target.hash) {
     e.preventDefault();
+
+    // If we're not on the main page and trying to access #how-to-play
+    if (
+      e.target.hash === "#how-to-play" &&
+      !window.location.pathname.endsWith("index.html") &&
+      window.location.pathname !== "/"
+    ) {
+      // Navigate to main page first, then scroll to section
+      window.location.href = "./index.html" + e.target.hash;
+      return;
+    }
+
     const targetElement = document.querySelector(e.target.hash);
     if (targetElement) {
       targetElement.scrollIntoView({
