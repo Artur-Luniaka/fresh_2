@@ -71,6 +71,10 @@ body {
   );
   min-height: 100vh;
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 
 .ocean-depths {
   background: linear-gradient(

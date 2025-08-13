@@ -96,11 +96,11 @@ document.addEventListener("click", function (e) {
     // If we're not on the main page and trying to access #how-to-play
     if (
       e.target.hash === "#how-to-play" &&
-      !window.location.pathname.endsWith("index.html") &&
-      window.location.pathname !== "/"
+      window.location.pathname !== "/" &&
+      !window.location.pathname.endsWith("/")
     ) {
       // Navigate to main page first, then scroll to section
-      window.location.href = "./index.html" + e.target.hash;
+      window.location.href = "./" + e.target.hash;
       return;
     }
 
