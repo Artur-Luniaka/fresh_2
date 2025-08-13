@@ -146,7 +146,7 @@ async function loadPlayerReviews() {
 // Load upgrade options from JSON
 async function loadUpgradeOptions() {
   try {
-    const response = await fetch("../data/upgrade-options.json");
+    const response = await fetch("data/upgrade-options.json");
     const upgrades = await response.json();
 
     const container = document.getElementById("upgrade-options");
