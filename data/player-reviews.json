@@ -1,0 +1,34 @@
+{
+  "reviews": [
+    {
+      "player": "Alex",
+      "rating": 5,
+      "comment": "Amazing game! I love merging fish and building my collection. The graphics are beautiful and the gameplay is addictive."
+    },
+    {
+      "player": "Sarah",
+      "rating": 4,
+      "comment": "Great strategy game with beautiful underwater graphics. The merge mechanics are intuitive and fun to master."
+    },
+    {
+      "player": "Mike",
+      "rating": 5,
+      "comment": "Addictive gameplay! Can't stop playing this game. The progression system keeps me engaged for hours."
+    },
+    {
+      "player": "Emma",
+      "rating": 5,
+      "comment": "Perfect casual game for relaxing. The ocean theme is gorgeous and the fish animations are so smooth."
+    },
+    {
+      "player": "David",
+      "rating": 4,
+      "comment": "Excellent merge game with lots of content. I love discovering new fish combinations and upgrading my reef."
+    },
+    {
+      "player": "Lisa",
+      "rating": 5,
+      "comment": "This game is pure magic! The underwater world feels alive and the merge mechanics are perfectly balanced."
+    }
+  ]
+}

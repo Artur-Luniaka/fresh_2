@@ -1,0 +1,32 @@
+{
+  "contact": [
+    {
+      "icon": "📧",
+      "title": "Email",
+      "value": "info@ThrillSphereGaming.com",
+      "link": "mailto:info@ThrillSphereGaming.com",
+      "action": "Send Email"
+    },
+    {
+      "icon": "📞",
+      "title": "Phone",
+      "value": "+61 7 1166 8920",
+      "link": "tel:+61711668920",
+      "action": "Call Now"
+    },
+    {
+      "icon": "📍",
+      "title": "Location",
+      "value": "7 Jacaranda Avenue, Kingaroy QLD 4610, Australia",
+      "link": "#map-section",
+      "action": "View Map"
+    },
+    {
+      "icon": "🕒",
+      "title": "Support Hours",
+      "value": "24/7 Available",
+      "link": null,
+      "action": null
+    }
+  ]
+}

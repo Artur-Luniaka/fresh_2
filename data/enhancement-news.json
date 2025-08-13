@@ -1,0 +1,46 @@
+{
+  "enhancements": [
+    {
+      "icon": "🐟",
+      "title": "New Fish Species Added",
+      "date": "February 15, 2025",
+      "description": "Discover 10 new exotic fish species in the latest update. Each fish has unique abilities and merge combinations that will revolutionize your gameplay.",
+      "tags": ["New Content", "Fish", "Update"]
+    },
+    {
+      "icon": "⚖️",
+      "title": "Balance Update",
+      "date": "February 10, 2025",
+      "description": "Improved game balance with better merge rewards and adjusted difficulty progression. Players will now experience smoother gameplay and more satisfying rewards.",
+      "tags": ["Balance", "Update", "Rewards"]
+    },
+    {
+      "icon": "🐛",
+      "title": "Bug Fixes",
+      "date": "February 5, 2025",
+      "description": "Fixed various bugs including merge animation issues and performance improvements. The game now runs smoother than ever before.",
+      "tags": ["Bug Fixes", "Performance", "Stability"]
+    },
+    {
+      "icon": "🎨",
+      "title": "Visual Improvements",
+      "date": "February 1, 2025",
+      "description": "Enhanced underwater graphics with improved lighting effects and more realistic fish animations. The ocean world has never looked better!",
+      "tags": ["Graphics", "Visual", "Animation"]
+    },
+    {
+      "icon": "🔊",
+      "title": "Sound Update",
+      "date": "January 25, 2025",
+      "description": "New ambient ocean sounds and improved fish sound effects. Immerse yourself in the underwater world with enhanced audio experience.",
+      "tags": ["Audio", "Sound", "Immersion"]
+    },
+    {
+      "icon": "📱",
+      "title": "Mobile Optimization",
+      "date": "January 20, 2025",
+      "description": "Better performance on mobile devices with optimized touch controls and improved battery efficiency.",
+      "tags": ["Mobile", "Performance", "Optimization"]
+    }
+  ]
+}

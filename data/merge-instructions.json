@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "title": "Find Similar Fish",
+      "description": "Look for fish of the same type and level to merge together. Similar fish will have matching colors and patterns."
+    },
+    {
+      "title": "Drag and Drop",
+      "description": "Drag one fish onto another similar fish to start the merge process. The fish will glow when they're compatible."
+    },
+    {
+      "title": "Watch Evolution",
+      "description": "See your fish evolve into a more powerful and valuable species! Each merge creates a unique combination."
+    },
+    {
+      "title": "Build Your School",
+      "description": "Continue merging to build the largest and most diverse fish school in the ocean. Bigger schools earn more rewards."
+    },
+    {
+      "title": "Discover Rare Species",
+      "description": "Special combinations unlock rare and exotic fish that can't be found anywhere else in the ocean."
+    },
+    {
+      "title": "Upgrade Your Reef",
+      "description": "Use your earnings to upgrade your coral reef, expand your territory, and unlock new merge possibilities."
+    }
+  ]
+}

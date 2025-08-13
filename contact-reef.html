@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with our ocean team at Fish Merge Game. Contact us for support, feedback, or questions about our underwater adventure game."
+    />
+    <title>Contact Reef - Get in Touch | ThrillSphereGaming.com</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="css/ocean-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=system-ui:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="ocean-depths">
+    <div id="tide-header-container"></div>
+
+    <main class="coral-main">
+      <!-- Page Header -->
+      <section class="contact-header">
+        <div class="bubble-container">
+          <h1 class="coral-title">Contact Reef</h1>
+          <p class="ocean-slogan">Reach out to our ocean team</p>
+        </div>
+      </section>
+
+      <!-- Contact Information -->
+      <section class="contact-info">
+        <div class="bubble-container">
+          <h2 class="coral-heading">Get in Touch</h2>
+          <div id="contact-details" class="contact-details-container">
+            <!-- Content loaded from JSON -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="contact-form-section">
+        <div class="bubble-container">
+          <h2 class="coral-heading">Send Message</h2>
+          <form class="contact-form" id="reef-contact-form">
+            <div class="form-group">
+              <label for="visitor-name">Name</label>
+              <input
+                type="text"
+                id="visitor-name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="visitor-phone">Phone</label>
+              <input
+                type="tel"
+                id="visitor-phone"
+                name="phone"
+                autocomplete="tel"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="visitor-message">Message</label>
+              <textarea
+                id="visitor-message"
+                name="message"
+                rows="5"
+                required
+                style="resize: none"
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button coral-glow">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map-section">
+        <div class="bubble-container">
+          <h2 class="coral-heading">Find Us</h2>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=7%20Jacaranda%20Avenue%20Kingaroy%20QLD%204610%20Australia&hl=en&z=14&output=embed"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="coral-footer-container"></div>
+
+    <script src="js/ocean-waves.js"></script>
+    <script src="js/contact-currents.js"></script>
+  </body>
+</html>
