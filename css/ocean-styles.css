@@ -267,12 +267,6 @@ body.menu-open {
   border-bottom: 1px solid var(--white-transparent-10);
 }
 
-/* Main Content */
-.coral-main {
-  flex: 1;
-  padding: 2rem 0;
-}
-
 /* Hero Section */
 .merge-reef.hero-waters {
   background: linear-gradient(
@@ -1188,6 +1182,7 @@ body.menu-open {
   justify-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .diary-card {
@@ -1351,6 +1346,7 @@ body.menu-open {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     max-width: 900px;
+    margin-bottom: 20px;
   }
 }
 
@@ -1359,6 +1355,7 @@ body.menu-open {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     max-width: 600px;
+    margin-bottom: 20px;
   }
 
   .diary-card {
@@ -1399,6 +1396,7 @@ body.menu-open {
     gap: 1rem;
     max-width: 100%;
     padding: 0 1rem;
+    margin-bottom: 20px;
   }
 
   .diary-card {
